@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+.keyboard-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    width: 220px;
+    margin: 0 auto 20px auto;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: hsl(224, 36%, 15%);
+}
+
+button{
+    border-radius: 4px;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+    box-shadow: 0px 4px 0px hsl(28, 16%, 65%);
+}
+
+.span{
+    grid-column: span 2;
+}
+
+.delete-btn{
+    background-color: hsl(225, 21%, 49%);
+    color: #ffffff;
+    box-shadow: 0px 4px 0px hsl(224, 28%, 35%);
+}
+
+.result-btn{
+    background-color: hsl(6, 63%, 50%);
+    color: #ffffff;
+    box-shadow: 0px 4px 0px hsl(6, 70%, 34%);
+}
